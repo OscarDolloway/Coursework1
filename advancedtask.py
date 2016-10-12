@@ -54,21 +54,39 @@ def func():
 a = [1]
 hatched = [1]
 eggs = []
+total = []
 print ("1 alien has arrived",hatched) 
 for i in range(1,31):
     #i= i
-    print("day",i,time.sleep(0.1),)
-    if i == 5 or i ==10 or i ==15 or i ==20 or i ==25 or i ==30:
+    print("day",i)
+    if i > 4:
         hatched.append(3)
+        if hatched.append:
+            eggs.extend(3*hatched)
         eggs.append(18)
-        print("3 aliens hatched", sum(hatched),"eggs laid",sum(eggs))
-        
+        print("3 aliens hatched", sum(hatched),"in total", sum(eggs))
+    if hatched.append ==3:
+        eggs.append(3)
   
 
+    
+
+def al():
+    
+    a = [1]
+    hatched = [1]
+    eggs = []
+    print ("1 alien has arrived",hatched) 
+    for i in range(1,31):
+        #i= i
+        print("day",i,time.sleep(0.1),)
+        if i == 5 or i ==10 or i ==15 or i ==20 or i ==25 or i ==30:
+            hatched.append(3)
+            eggs.append(18)
 
 
-
-
+    
+        print("3 aliens hatched", sum(hatched),"eggs laid",sum(eggs))
     
 
 
