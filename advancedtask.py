@@ -5,10 +5,11 @@ import time
 
 
 #question1
-def shuffle():
-    alist = [1,2,3,4,5,6,7,8]
-    random.shuffle(alist)
-    print(alist)
+aList = []
+a = random.randint(0,9)
+while aList[len(aList)] != 10:
+    aList.append (a)         
+print(aList)
 #shuffle()
 
 
