@@ -5,21 +5,30 @@ import time
 
 
 #question1
-aList = []
-a = random.randint(0,9)
-while aList[len(aList)] != 10:
-    aList.append (a)         
-print(aList)
+def shuffle():
+    aList = []
+    a = random.randint(0,9)
+    while aList[len(aList)] != 10:
+        aList.append (a)         
+    print(aList)
 #shuffle()
 
 
 #question2
 
 
-def Count():
-    user = input("enter number")
-    
 
+def count():
+    counter = 0
+    x = [300]
+    last = x[len(x)-1]
+    print (last)
+    if last == 0:
+        print (":)")
+    #n =(x/5)
+    #print("number of trailing zeros is",n)
+
+count()
 
 ##Count()
 
